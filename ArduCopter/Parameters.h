@@ -669,6 +669,8 @@ public:
     AP_Int8                 surftrak_mode;
     AP_Int8                 failsafe_dr_enable;
     AP_Int16                failsafe_dr_timeout;
+    AP_Int16                my_new_parameter;                  // my new parameter's description goes here
+
 };
 
 extern const AP_Param::Info        var_info[];
