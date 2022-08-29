@@ -671,7 +671,7 @@ const AP_Param::GroupInfo Compass::var_info[] = {
     // @Description: The new library parameter description goes here
     // Range: -32768 32767
     // @user: Advanced
-    AP_GROUPINFO("MY_NEW_P", 52, Compass, _my_new_lib_parater, MY_NEW_PARAM_DEFAUT),
+    AP_GROUPINFO("MY_NEW_P", 52, Compass, _my_new_parameter, MY_NEW_PARAM_DEFAUT),
 
 
     AP_GROUPEND
