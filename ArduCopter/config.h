@@ -714,3 +714,7 @@
 #ifndef HAL_FRAME_TYPE_DEFAULT
 #define HAL_FRAME_TYPE_DEFAULT AP_Motors::MOTOR_FRAME_TYPE_X
 #endif
+
+#ifndef MY_NEW_PARAMETER_DEFAULT
+ # define MY_NEW_PARAMETER_DEFAULT      100     // default value for my new parameter
+#endif
