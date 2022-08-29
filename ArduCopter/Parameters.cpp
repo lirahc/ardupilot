@@ -807,7 +807,7 @@ const AP_Param::GroupInfo ParametersG2::var_info[] = {
     // @Description: The new library parameter description goes here
     // @Range: -32768 32767
     // @User: Advanced
-    AP_GROUPINFO("MY_NEW_P", 9, Compass, _my_new_lib_parameter, MY_NEW_PARAM_DEFAULT),
+    AP_GROUPINFO("MY_NEW_P", 9, Compass, my_new_parameter, 100),
 
 #if MODE_ACRO_ENABLED == ENABLED
     // @Param: ACRO_THR_MID
