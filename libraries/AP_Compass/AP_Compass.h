@@ -84,6 +84,8 @@ friend class AP_Compass_Backend;
 public:
     Compass();
 
+    AP_Int16        my_new_parameter;             // my new parameter's description goes here
+
     /* Do not allow copies */
     Compass(const Compass &other) = delete;
     Compass &operator=(const Compass&) = delete;
@@ -605,7 +607,5 @@ private:
 
 namespace AP {
     Compass &compass();
-protected:
-    AP_Int16 _my_new_lib_parameter;              /// description of my new parameter
 
 };
