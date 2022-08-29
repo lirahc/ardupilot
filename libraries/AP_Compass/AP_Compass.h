@@ -605,4 +605,7 @@ private:
 
 namespace AP {
     Compass &compass();
+protected:
+    AP_Int16 _my_new_lib_parameter;              /// description of my new parameter
+
 };

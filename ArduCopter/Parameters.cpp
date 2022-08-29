@@ -35,6 +35,10 @@
 #define DEFAULT_FRAME_CLASS 0
 #endif
 
+static const struct AP_Param::GroupInfo var_info[];
+
+
+
 const AP_Param::Info Copter::var_info[] = {
     // @Param: FORMAT_VERSION
     // @DisplayName: Eeprom format version number
